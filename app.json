@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "vinaysikarwar",
-    "description": "A very interesting project.",
-    "slug": "vinaysikarwar",
+    "name": "VinaySikarwar",
+    "description": "A React Native Android app to showcase my profile.",
+    "slug": "VinaySikarwar",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
@@ -21,7 +21,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+	   "bundleIdentifier": "com.webtechnologycodes.vinaysikarwar"
+    },
+    "android": {
+      "package": "com.webtechnologycodes.vinaysikarwar"
     }
   }
 }
+
+
