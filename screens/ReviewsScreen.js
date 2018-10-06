@@ -1,9 +1,7 @@
 import React from 'react';
 import { Button } from 'react-native-elements';
-import GridView from 'react-native-super-grid';
 import { SuperGridSectionList } from 'react-native-super-grid';
 import { Container, Content,Header, DeckSwiper, Card, CardItem, Thumbnail, Left,Right, Body } from 'native-base';
-import { Col, Row, Grid } from "react-native-easy-grid";
 import StarRating from 'react-native-star-rating';
 import {
   Image,
